@@ -1,0 +1,25 @@
+{
+  "env": {
+    "es2022": true,
+    "node": true,
+    "browser": false
+  },
+  "rules": {
+    "no-explicit-any": "error",
+    "no-unused-vars": "error",
+    "no-console": "off",
+    "prefer-const": "error",
+    "no-var": "error",
+    "eqeqeq": ["error", "always"],
+    "curly": ["error", "all"],
+    "semi": ["error", "always"],
+    "quotes": ["error", "single", { "avoidEscape": true }]
+  },
+  "ignore": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "**/generated/**",
+    "*.config.ts"
+  ]
+}
